@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+/* reset */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box; /* limitar o content */ 
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* box */
+#box {
+    position: relative;
+    top: 11.25rem; /* 180px; */
+    margin: auto;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
+}
+
+#box p {
+    margin-top: 2px;
+    color: hsl(0, 0%, 59%);
+}
+
+/* text */
+
+#box h3 {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+/* hr */
+
+hr{
+    opacity: 0.2;
+}
+
+/* informations */
+
+.informations{
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* profile */
+
+.name{
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+
+.age{
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.from{
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* avaliation */
+
+.social{
+    margin-top: 20px;
+}
+
+.avaliation{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.avaliation:first-child{
+    margin-left: 0px;
+}
+
+.avaliation h3{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.avaliation p{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* image */
+
+.face{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    left: 36%;
+}
+
+/* background */
+
+.back-top {
+    position: absolute;
+    top: -31.25rem; /* é o mesmo que -500px */
+    right: 52%;
+}
+
+.back-bottom {
+    position: absolute; 
+    top: 21.875rem; /* é o mesmo que 350px */
+    left: 50%;
+    overflow: hidden;
+    max-height: 49vh;
+    max-width: 97.9vh;
+}
+
+.back-card{
+    position: absolute;
+}
+
+/* footer */
+
+.attribution { 
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 11px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
